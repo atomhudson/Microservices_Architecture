@@ -1,4 +1,3 @@
----
 # Microservices Architecture for Quiz System
 
 This repository demonstrates a **Microservices-based architecture** using **Spring Boot** with the following components:
