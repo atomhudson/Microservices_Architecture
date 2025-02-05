@@ -131,16 +131,6 @@ spring.cloud.gateway.routes[1].predicates[0]=Path=/question/**
 Both **Question Service** and **Quiz Service** register with Eureka for service discovery:
 
 ```properties
-server.port=8082
-
-spring.application.name=QUESTION-SERVICE
-spring.datasource.url=jdbc:mysql://localhost:3306/micro_services_question
-spring.datasource.username=root
-spring.datasource.password=password
-
-spring.jpa.show-sql=true
-spring.jpa.hibernate.ddl-auto=update
-
 eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
 ```
 
